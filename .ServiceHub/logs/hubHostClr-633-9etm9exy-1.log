@@ -1,0 +1,9 @@
+﻿06/03/2018 13:48:06 : Error : Error disposing service modules: System.TimeoutException: The operation has timed out.
+  at Microsoft.VisualStudio.Threading.TplExtensions+<WithTimeout>d__6.MoveNext () [0x000db] in <08e734c224b34ea7b8077e1f08d9b0e6>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in /Users/builder/data/lanes/5533/mono-mac-sdk/external/bockbuild/builds/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/exceptionservices/exceptionservicescommon.cs:152 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x00037] in /Users/builder/data/lanes/5533/mono-mac-sdk/external/bockbuild/builds/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs:187 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in /Users/builder/data/lanes/5533/mono-mac-sdk/external/bockbuild/builds/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs:156 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in /Users/builder/data/lanes/5533/mono-mac-sdk/external/bockbuild/builds/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs:128 
+  at System.Runtime.CompilerServices.ConfiguredTaskAwaitable+ConfiguredTaskAwaiter.GetResult () [0x00000] in /Users/builder/data/lanes/5533/mono-mac-sdk/external/bockbuild/builds/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs:447 
+  at Microsoft.ServiceHub.HostLib.Host+<RunHostAsync>d__16.MoveNext () [0x001e0] in <75904c4e018c4969ae831b06b8b8b368>:0 

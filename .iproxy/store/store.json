@@ -1,0 +1,17 @@
+{
+	"rules": [
+		{
+			"code": "# 在此输入规则\n# command+s 保存\n# 双击启用或者禁用规则\n\n# hosts 绑定\n# 10.101.73.189  g.alicdn.com\n# 140.205.215.168  i.alicdn.com b.alicdn.com  u.alicdn.com\n\n# 直接转发网页\n# https://www.google.com https://www.alibaba.com\n\n# 转发到文件\n# https://www.google.com file:///User/xxx/xxx.html\n\n# 匹配通配符\n# ^https://*.xxx.com file:///User/xxx/xxx.html\n\n# 内联文件用 ES6 字符串\n\n# hello.com file://`\n# test\n# `\n\n# 更多使用方案参照文档",
+			"title": "Default",
+			"enabled": false,
+			"id": "e46065b3-1e3a-4fd8-9044-2ef473f7c913"
+		},
+		{
+			"title": "未命名",
+			"id": "63bfb50d-2507-4a5f-a357-3d589538c85a",
+			"code": "# 按 Tab 选择规则模板\n# http://localhost:8887/api/ http://localhost:8887/gov\nlocalhost:8887/gov 127.0.0.1:8887/api",
+			"enabled": true,
+			"rename": false
+		}
+	]
+}
